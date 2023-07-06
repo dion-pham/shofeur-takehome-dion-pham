@@ -13,7 +13,7 @@ export default function Home() {
   };
   return (
     <main className="overflow-hidden">
-      <Hero />
+      <Hero/>
 
       <div className='mt-12 padding-x padding-y max-width' id='discover'></div>
       <div className='px-10'>
