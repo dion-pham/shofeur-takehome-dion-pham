@@ -165,12 +165,8 @@
   @apply flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10;
 }
 
-.footer__rights {
-  @apply flex flex-col justify-start items-start gap-6;
-}
-
 .footer__links {
-  @apply flex-1 w-full flex md:justify-end flex-wrap max-md:mt-10 gap-20;
+  @apply flex-1 w-full flex md:justify-end flex-wrap max-md:mt-10 gap-10;
 }
 
 .footer__link {
@@ -200,23 +196,23 @@
 }
 /* END: searchbar styles */
 
-/* START: search manufacturer styles */
-.search-manufacturer {
+/* START: search eventtype styles */
+.search-eventtype {
   @apply flex-1 max-sm:w-full flex justify-start items-center;
 }
 
-.search-manufacturer__input {
+.search-eventtype__input {
   @apply w-full h-[48px] pl-12 p-4 rounded-l-full max-sm:rounded-full bg-light-white outline-none cursor-pointer text-sm;
 }
 
-.search-manufacturer__options {
+.search-eventtype__options {
   @apply absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm;
 }
 
-.search-manufacturer__option {
+.search-eventtype__option {
   @apply cursor-default select-none py-2 pl-10 pr-4;
 }
-/* END: search manufacturer styles */
+/* END: search eventtype styles */
 
 /* START: Custom changes */
 .vehicle-card__content-title {
@@ -249,8 +245,8 @@
   font-size: 14px;
 }
 
-.search-manufacturer__input {
-  /* Custom changes for search manufacturer */
+.search-eventtype__input {
+  /* Custom changes for search eventtype */
   background-color: #F2F2F2;
   font-size: 14px;
 }

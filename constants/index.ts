@@ -20,3 +20,31 @@ export const footerLinks = [
         link: 'https://www.shofeur.com/terms-conditions'
     },
 ];
+
+export const eventTypes = [
+    'Airport pickup',
+    'Airport drop-off',
+    'Point to point transfer',
+    'Anniversary',
+    'Bachelor party',
+    'Bachelorette party',
+    'Bar/Bat Mitzvah',
+    'Birthday',
+    'Brewery Tour',
+    'Brunch',
+    'Casino night out',
+    'Christmas light tour',
+    'College event',
+    'Concert',
+    'Date night',
+    'Dinner',
+    'Funeral',
+    'Graduation',
+    'Kids party',
+    'Night club',
+    'Other tour',
+    'Prom',
+    'Quincenera',
+    'Sporting event',
+    'Wedding'
+]

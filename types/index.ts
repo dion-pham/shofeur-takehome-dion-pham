@@ -7,3 +7,9 @@ export interface CustomButtonProps {
     btnType?: 'button' | 'submit'
 
 }
+
+
+export interface searchEventTypeProps {
+    eventType: string;
+    setEventType: (event: string) => void;
+}

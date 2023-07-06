@@ -11,7 +11,7 @@ const Hero = () => {
         <div className='hero'>
             <div className='flex-1 pt-36 padding-x'>
                 <h1 className='hero__title'>
-                    Chauffeured Anything near me
+                    Chauffeured Anything near Los Angeles
                 </h1>
 
             <CustomButton

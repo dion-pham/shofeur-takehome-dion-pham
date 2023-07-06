@@ -491,6 +491,16 @@ video {
 .relative{
   position: relative;
 }
+.inset-y-0{
+  top: 0px;
+  bottom: 0px;
+}
+.top-\[14px\]{
+  top: 14px;
+}
+.left-0{
+  left: 0px;
+}
 .z-10{
   z-index: 10;
 }
@@ -501,8 +511,17 @@ video {
 .mt-10{
   margin-top: 2.5rem;
 }
+.mt-12{
+  margin-top: 3rem;
+}
 .mt-5{
   margin-top: 1.25rem;
+}
+.ml-4{
+  margin-left: 1rem;
+}
+.block{
+  display: block;
 }
 .flex{
   display: flex;
@@ -549,6 +568,11 @@ video {
 .overflow-hidden{
   overflow: hidden;
 }
+.truncate{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .rounded-full{
   border-radius: 9999px;
 }
@@ -571,6 +595,10 @@ video {
   -o-object-fit: contain;
      object-fit: contain;
 }
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -590,6 +618,22 @@ video {
 .pt-36{
   padding-top: 9rem;
 }
+.pl-3{
+  padding-left: 0.75rem;
+}
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.font-extrabold{
+  font-weight: 800;
+}
+.font-medium{
+  font-weight: 500;
+}
+.font-normal{
+  font-weight: 400;
+}
 .text-black-100{
   --tw-text-opacity: 1;
   color: rgb(43 44 53 / var(--tw-text-opacity));
@@ -597,6 +641,13 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-gray-900{
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+.filter{
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 * {
@@ -1082,20 +1133,12 @@ video {
   }
 }
 
-.footer__rights{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 1.5rem;
-}
-
 .footer__links{
   display: flex;
   width: 100%;
   flex: 1 1 0%;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 @media not all and (min-width: 768px){
@@ -1108,7 +1151,7 @@ video {
 @media (min-width: 768px){
 
   .footer__links{
-    justify-content:right
+    justify-content: flex-end;
   }
 }
 
@@ -1116,11 +1159,54 @@ video {
   display: flex;
   min-width: 170px;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: 1.5rem;
 }
 
+.footer__copyrights{
+  margin-top: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-top-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(243 244 246 / var(--tw-border-opacity));
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+@media (min-width: 640px){
+
+  .footer__copyrights{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+.footer__copyrights-link{
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+@media not all and (min-width: 640px){
+
+  .footer__copyrights-link{
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 640px){
+
+  .footer__copyrights-link{
+    justify-content: flex-end;
+  }
+}
 /* END: Footer styles */
 
 /* START: searchbar styles */
@@ -1178,8 +1264,8 @@ video {
 }
 /* END: searchbar styles */
 
-/* START: search manufacturer styles */
-.search-manufacturer{
+/* START: search eventtype styles */
+.search-eventtype{
   display: flex;
   flex: 1 1 0%;
   align-items: center;
@@ -1187,12 +1273,12 @@ video {
 }
 @media not all and (min-width: 640px){
 
-  .search-manufacturer{
+  .search-eventtype{
     width: 100%;
   }
 }
 
-.search-manufacturer__input{
+.search-eventtype__input{
   height: 48px;
   width: 100%;
   cursor: pointer;
@@ -1209,12 +1295,12 @@ video {
 
 @media not all and (min-width: 640px){
 
-  .search-manufacturer__input{
+  .search-eventtype__input{
     border-radius: 9999px;
   }
 }
 
-.search-manufacturer__options{
+.search-eventtype__options{
   position: absolute;
   margin-top: 0.25rem;
   max-height: 15rem;
@@ -1237,20 +1323,20 @@ video {
   --tw-ring-opacity: 0.05;
 }
 
-.search-manufacturer__options:focus{
+.search-eventtype__options:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
 
 @media (min-width: 640px){
 
-  .search-manufacturer__options{
+  .search-eventtype__options{
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
 }
 
-.search-manufacturer__option{
+.search-eventtype__option{
   cursor: default;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -1260,7 +1346,7 @@ video {
   padding-left: 2.5rem;
   padding-right: 1rem;
 }
-/* END: search manufacturer styles */
+/* END: search eventtype styles */
 
 /* START: Custom changes */
 .vehicle-card__content-title {
@@ -1293,8 +1379,8 @@ video {
   font-size: 14px;
 }
 
-.search-manufacturer__input {
-  /* Custom changes for search manufacturer */
+.search-eventtype__input {
+  /* Custom changes for search eventtype */
   background-color: #F2F2F2;
   font-size: 14px;
 }
@@ -1312,3 +1398,4 @@ video {
     padding-right: 4rem;
   }
 }
+
