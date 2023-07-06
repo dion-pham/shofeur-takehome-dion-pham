@@ -5,6 +5,7 @@ import Footer from './Footer'
 import SearchBar from './SearchBar'
 import CustomFilter from './CustomFilter'
 import SearchEventType from './SearchEventType'
+import VehicleCard from './VehicleCard'
 
 export {
     Hero,
@@ -13,5 +14,6 @@ export {
     Footer,
     SearchBar,
     CustomFilter,
-    SearchEventType
+    SearchEventType,
+    VehicleCard
 }

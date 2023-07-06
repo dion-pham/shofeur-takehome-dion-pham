@@ -48,3 +48,132 @@ export const eventTypes = [
     'Sporting event',
     'Wedding'
 ]
+
+export const vehicles = [
+    {
+        name: "Mercedes Sprinter #2",
+        num_reviews: 1,
+        rating: 5.0,
+        price: 130,
+        capacity: 12,
+        img: '/vehicle_1.webp'
+    },
+    {
+        name: "Luxury Sprinter Limo Bus!",
+        num_reviews: 1,
+        rating: 5.0,
+        price: 175,
+        capacity: 15,
+        img: '/vehicle_2.webp'
+    },
+    {
+        name: 'White 20 Passenger Party Bus Pole',
+        num_reviews: 2,
+        rating: 4.5,
+        price: 165,
+        capacity: 20,
+        img: '/vehicle_3.webp'
+    },
+    {
+        name: 'Black 18 Passenger Party Bus',
+        num_reviews: 3,
+        rating: 4.0,
+        price: 160,
+        capacity: 18,
+        img: '/vehicle_4.webp'
+    },
+    {
+        name: 'White 20 Passenger Party Bus (no pole)',
+        num_reviews: 1,
+        rating: 5.0,
+        price: 165,
+        capacity: 20,
+        img: '/vehicle_5.webp'
+    },
+    {
+        name: 'Black 20 Passenger Party Bus',
+        num_reviews: 1,
+        rating: 4.0,
+        price: 175,
+        capacity: 20,
+        img: '/vehicle_6.webp'
+    },
+    {
+        name: '30 Passenger Party Bus With Pole',
+        num_reviews: 1,
+        rating: 5.0,
+        price: 180,
+        capacity: 30,
+        img: '/vehicle_7.webp'
+    },
+    {
+        name: 'Luxury Limo Party Bus!! 25 people!',
+        num_reviews: 1,
+        rating: 5.0,
+        price: 250,
+        capacity: 25,
+        img: '/vehicle_8.webp'
+    },
+]
+
+export const vehicleTypes = [
+    {
+        title: "Vehicle Type",
+        value: "Party bus",
+    },
+    {
+        title: "Vehicle Type",
+        value: "Shuttle",
+    },
+    {
+        title: "Vehicle Type",
+        value: "Limousine",
+    },
+    {
+        title: "Vehicle Type",
+        value: "SUV",
+    },
+    {
+        title: "Vehicle Type",
+        value: "Sedan",
+    },
+];
+
+export const groupSize = [
+    {
+        title: "Group Size",
+        value: "4",
+    },
+    {
+        title: "Group Size",
+        value: "5",
+    },
+    {
+        title: "Group Size",
+        value: "6",
+    },
+    {
+        title: "Group Size",
+        value: "7",
+    },
+    {
+        title: "Group Size",
+        value: "8",
+    },
+    {
+        title: "Group Size",
+        value: "9",
+    },
+    {
+        title: "Group Size",
+        value: "10",
+    },
+    {
+        title: "Group Size",
+        value: "15+",
+    },
+    {
+        title: "Group Size",
+        value: "20+",
+    }
+];

@@ -64,6 +64,14 @@
         "async": false
       }
     },
+    "(app-client)/./components/CustomFilter.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/CustomFilter.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./components/Hero.tsx": {
       "*": {
         "id": "(sc_client)/./components/Hero.tsx",
@@ -88,6 +96,14 @@
         "async": false
       }
     },
+    "(app-client)/./components/VehicleCard.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/VehicleCard.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/image.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
@@ -107,6 +123,22 @@
     "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/DateFilter.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/DateFilter.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -283,6 +315,14 @@
       ],
       "async": false
     },
+    "/Users/Pham/AppAcademy/takehome-assessments/shofeur-takehome-dion-pham-1/components/CustomFilter.tsx": {
+      "id": "(app-client)/./components/CustomFilter.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/Pham/AppAcademy/takehome-assessments/shofeur-takehome-dion-pham-1/components/Hero.tsx": {
       "id": "(app-client)/./components/Hero.tsx",
       "name": "*",
@@ -301,6 +341,14 @@
     },
     "/Users/Pham/AppAcademy/takehome-assessments/shofeur-takehome-dion-pham-1/components/SearchEventType.tsx": {
       "id": "(app-client)/./components/SearchEventType.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/Pham/AppAcademy/takehome-assessments/shofeur-takehome-dion-pham-1/components/VehicleCard.tsx": {
+      "id": "(app-client)/./components/VehicleCard.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -354,6 +402,22 @@
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
+    },
+    "/Users/Pham/AppAcademy/takehome-assessments/shofeur-takehome-dion-pham-1/app/page.tsx": {
+      "id": "(app-client)/./app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/Pham/AppAcademy/takehome-assessments/shofeur-takehome-dion-pham-1/components/DateFilter.tsx": {
+      "id": "(app-client)/./components/DateFilter.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
@@ -366,8 +430,12 @@
       ]
     },
     "/Users/Pham/AppAcademy/takehome-assessments/shofeur-takehome-dion-pham-1/app/page": {
-      "modules": [],
-      "files": []
+      "modules": [
+        "/Users/Pham/AppAcademy/takehome-assessments/shofeur-takehome-dion-pham-1/node_modules/react-datepicker/dist/react-datepicker.css"
+      ],
+      "files": [
+        "static/css/app/page.css"
+      ]
     }
   }
 }
