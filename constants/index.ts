@@ -51,6 +51,7 @@ export const eventTypes = [
 
 export const vehicles = [
     {
+        id:1,
         name: "Mercedes Sprinter #2",
         num_reviews: 1,
         rating: 5.0,
@@ -59,6 +60,7 @@ export const vehicles = [
         img: '/vehicle_1.webp'
     },
     {
+        id:2,
         name: "Luxury Sprinter Limo Bus!",
         num_reviews: 1,
         rating: 5.0,
@@ -67,6 +69,7 @@ export const vehicles = [
         img: '/vehicle_2.webp'
     },
     {
+        id:3,
         name: 'White 20 Passenger Party Bus Pole',
         num_reviews: 2,
         rating: 4.5,
@@ -75,6 +78,7 @@ export const vehicles = [
         img: '/vehicle_3.webp'
     },
     {
+        id:4,
         name: 'Black 18 Passenger Party Bus',
         num_reviews: 3,
         rating: 4.0,
@@ -83,6 +87,7 @@ export const vehicles = [
         img: '/vehicle_4.webp'
     },
     {
+        id:5,
         name: 'White 20 Passenger Party Bus (no pole)',
         num_reviews: 1,
         rating: 5.0,
@@ -91,6 +96,7 @@ export const vehicles = [
         img: '/vehicle_5.webp'
     },
     {
+        id:6,
         name: 'Black 20 Passenger Party Bus',
         num_reviews: 1,
         rating: 4.0,
@@ -99,6 +105,7 @@ export const vehicles = [
         img: '/vehicle_6.webp'
     },
     {
+        id:7,
         name: '30 Passenger Party Bus With Pole',
         num_reviews: 1,
         rating: 5.0,
@@ -107,6 +114,7 @@ export const vehicles = [
         img: '/vehicle_7.webp'
     },
     {
+        id:8,
         name: 'Luxury Limo Party Bus!! 25 people!',
         num_reviews: 1,
         rating: 5.0,
@@ -177,3 +185,14 @@ export const groupSize = [
         value: "20+",
     }
 ];
+
+export const allowSmoking = [
+    {
+        title: 'Allow smoking?',
+        value: 'yes'
+    },
+    {
+        title: 'Allow smoking?',
+        value: 'no'
+    }
+]

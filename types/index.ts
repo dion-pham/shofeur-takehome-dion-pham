@@ -15,6 +15,7 @@ export interface searchEventTypeProps {
 }
 
 export interface VehicleProps {
+    id: number;
     name: string;
     num_reviews: number;
     rating: number;

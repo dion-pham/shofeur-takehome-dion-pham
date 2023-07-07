@@ -1,8 +1,7 @@
 'use client'
 import Image from 'next/image'
-import { Hero, SearchBar, CustomFilter, VehicleCard } from '@/components'
-import { groupSize, vehicleTypes, vehicles } from '@/constants'
-import DateFilter from '@/components/DateFilter'
+import { Hero, SearchBar, CustomFilter, VehicleCard, DateFilter } from '@/components'
+import { allowSmoking, groupSize, vehicleTypes, vehicles } from '@/constants'
 import { useState } from 'react'
 
 export default function Home() {
@@ -28,6 +27,7 @@ export default function Home() {
           <DateFilter selectedDate={selectedDate} onChange={handleDateChange} />
           <CustomFilter title='vehicle type' options={vehicleTypes} />
           <CustomFilter title='group size' options={groupSize} />
+          <CustomFilter title='smoking preference' options={allowSmoking} />
           {/* since these filters are present on a page in which location is already
           decided, it will apply said filters to the location */}
         </div>
@@ -36,7 +36,7 @@ export default function Home() {
       <section className='px-10'>
         <div className='home__vehicles-wrapper'>
           {vehicles.map((vehicle) => (
-            <VehicleCard vehicle={vehicle} />
+            <VehicleCard  key={vehicle.id} vehicle={vehicle} />
           ))}
         </div>
       </section>

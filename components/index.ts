@@ -6,6 +6,8 @@ import SearchBar from './SearchBar'
 import CustomFilter from './CustomFilter'
 import SearchEventType from './SearchEventType'
 import VehicleCard from './VehicleCard'
+import DateFilter from './DateFilter'
+import LocationSearchBar from './LocationSearchBar'
 
 export {
     Hero,
@@ -15,5 +17,7 @@ export {
     SearchBar,
     CustomFilter,
     SearchEventType,
-    VehicleCard
+    VehicleCard,
+    DateFilter,
+    LocationSearchBar
 }
