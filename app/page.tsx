@@ -28,8 +28,8 @@ export default function Home() {
           <DateFilter selectedDate={selectedDate} onChange={handleDateChange} />
           <CustomFilter title='vehicle type' options={vehicleTypes} />
           <CustomFilter title='group size' options={groupSize} />
-          {/* <CustomFilter title = ''/> */}
-          {/* maybe a custom filter for pickup city  in future implementation */}
+          {/* since these filters are present on a page in which location is already
+          decided, it will apply said filters to the location */}
         </div>
       </div>
 

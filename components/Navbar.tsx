@@ -1,3 +1,4 @@
+import LocationSearchBar from './LocationSearchBar';
 import Image from 'next/image';
 
 const Navbar = () => {
@@ -13,6 +14,9 @@ const Navbar = () => {
                         className='object-contain'
                     />
                 </a>
+
+                <LocationSearchBar/>
+
                 <div className='flex justify-between items-center z-10'>
                     <a href='https://www.shofeur.com/operators' rel='noopener noreferrer' className='flex text-white items-center px-8'>
                         Add a Listing
